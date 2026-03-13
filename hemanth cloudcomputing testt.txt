@@ -1,0 +1,89 @@
+1. The seven fields of /etc/passwd are
+user id = #usermod 7010 hemanth
+group id = #usermod -g 223 
+home directory= #usermod -d /home/hemanth
+extra info =  #usermod C "Bangalore" hemanth 
+lock user = #usermod -s /sbin/nologin hemanth
+unlock user = #usermod -s /bin/bash hemanth
+delete user = #userdel hemanth
+
+
+2. Linux is a operating system and it is more secure because its a admin operating system based on commands and can only be used by those who have knowledge over commands unlike windows operating system
+
+3. move the up and down arrow keys 4-5 times then press E 
+   then come to the 16th line and type the command rd.break after UTF-8
+   #mount -oremount,rw /sysroot
+   #chroot /sysroot
+   #passwd root
+enter new password = sarahpses
+ #touch /.autorelabel
+ #exit
+ #exit
+
+
+4. #usermod g -a t1 "groupname"
+    vim /etc/group
+
+
+5. The purpose of password ageing policy is to set the expiry of the password for a user for any specific date 
+
+
+6. give the command vim /etc/passwd or passwd username
+
+
+7. hostname is used to identify the user with a specific name 
+   give the command  #hostname #hostnamectl set-hostname hemanth and reboot or go by #nmcli command change          hostname and ok and exit
+
+
+8. #ip addr 
+  #vim /etc/sysconfig/network-scripts/ifcfg-eth0
+  ONBOOT yes 
+  BOOTPROTO give dynamic
+  IPADDR:172.20.20.7
+  NETMASK:255.255.255.0
+  GATEWAY:172.20.20.1 
+
+
+9. #vim /etc/passwd
+   #
+   #m 0 max 6 w 5 
+   
+
+
+
+10. #usermod hemanth apponix   - to change username
+    # hemanth passwd
+
+
+
+11. #useradd -g t1 t2 t3 t4 t5   -to add
+    #rm t4                       -to remove
+    #usermod -g oldgroup newgroup -to modify
+
+
+12. open source environment os is a open source which is easily accessible by anyone and the interface is GUI example = Microsoft windows
+
+    closed source environment is a closed source which cannot be accessed by everyone and this environment is designed for admins example = Redhat Linux
+
+
+13.  Virtualisation is a process where group of o.s are combined together to make it virtualized
+
+
+14. # amar passwd
+    enter new password: AMEERA 
+    #usermod amar ameera 
+
+15. #usermod -s /sbin/nologin/raj
+
+16. cooper@ubuntu:~$ = This is a user account $ means localuser that we are currently logged in the user account named @ubuntu and cooper is the name given to the virtual machine 
+
+17. if we deleted the file1, you can take backup by using the command hardlink.pro as if you backed up file1 using hardlink it will be saved as a backup if you have deleted the file1 and by using softlink you can point out exactly where the file1 is saved
+
+
+18. 
+
+
+19. give the command #ls -a 
+
+
+20. redhat 7.5, 
